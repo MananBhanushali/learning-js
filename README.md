@@ -1,6 +1,9 @@
 # Learning JavaScript
 
 - [Basics](basics.md)
+- Intermediate
+  - [Objects](intermediate/objects.md)
+  - [Storing Data](intermediate/storing_data.md)
 
 
 ## Tutorials and References
