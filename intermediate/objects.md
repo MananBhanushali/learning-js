@@ -72,7 +72,7 @@ const product = {
 
 product.method1();
 >'Method 1'
-product.method1();
+product.method2();
 >'Method 2'
 ```
 

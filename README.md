@@ -4,6 +4,7 @@
 - Intermediate
   - [Objects](intermediate/objects.md)
   - [Storing Data](intermediate/storing_data.md)
+  - [Arrays](intermediate/arrays.md)
 
 
 ## Tutorials and References
