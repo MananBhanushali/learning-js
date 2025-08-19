@@ -23,7 +23,7 @@ while ( i<=5 ) { // will run 5 times
 ## For Loops
 
 ```js
-while ( loop-variable, condition, increment) {
+for ( loop-variable, condition, increment) {
     body
 }
 ```
