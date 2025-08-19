@@ -83,3 +83,5 @@ To get values from an array and store them in variables, destructuring can be us
 ```js
 const [firstValue, secondValue] = [1, 2, 3];
 ```
+
+6. **.forEach( function(value, index) )** - Loops through each item of the array and calls the function() with the parameter value ( which is a value in the array ) and index ( which is the index it is currently iterating on )
