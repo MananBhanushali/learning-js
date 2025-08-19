@@ -2,6 +2,7 @@
 
 - [Basics](basics.md)
 - Intermediate
+  - [Functions](intermediate/functions.md)
   - [Objects](intermediate/objects.md)
   - [Storing Data](intermediate/storing_data.md)
   - [Arrays](intermediate/arrays.md)
