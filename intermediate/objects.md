@@ -1,4 +1,4 @@
-# Objects in Java
+# Objects in JavaScript
 
 Can be defined as **const/let/var name = { property : value}**  
 **Properties of the Object can be accessed by name.property ( Dot Notation ) or name[\'property'] ( Bracket Notation )**
