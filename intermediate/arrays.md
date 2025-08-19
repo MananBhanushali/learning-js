@@ -35,16 +35,51 @@ console.log(Array.isArray([1, 2]));
 3. .splice(indexToRemove, numberOfValuesToRemove) - Removes the given number of values at the given index
 
 ```javascript
-myArray = [10, 20, 30]
+myArray = [10, 20, 30];
 
-console.log(myArray.length)
+console.log(myArray.length);
 >3
 
-myArray.push(40) 
-console.log(myArray)
+myArray.push(40); 
+console.log(myArray);
 >[10, 20, 30, 40]
 
-myArray.splice(1, 2) // Removes 2 values at index 1
-console.log(myArray)
+myArray.splice(1, 2); // Removes 2 values at index 1
+console.log(myArray);
 >[10, 40]
+```
+
+4. .slice() - Copies the values out of an array
+
+>[!NOTE]
+Arrays are also references just like objects, hence by adding a value to the copy of an array will add it to the original array too.  
+
+```js
+array1 = [1, 2, 3];
+array2 = array1; // both are references pointing to the same memory location
+
+array2.push(4);
+console.log(array1);
+>[1, 2, 3, 4]
+```
+
+To overwrite this behaviour, use :
+```js
+array1 = [1, 2, 3];
+array2 = array1.slice(); // The Values of array1 are copied into array2, both are independent arrays
+
+array2.push(4);
+console.log(array1);
+>[1, 2, 3]
+
+console.log(array2);
+>[1, 2, 3, 4]
+```
+
+5. **Destructuring**
+
+To get values from an array and store them in variables, destructuring can be used.
+
+```js
+const [firstValue, secondValue] = [1, 2, 3];
 ```
